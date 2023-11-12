@@ -10,21 +10,20 @@ public class player_Movement : MonoBehaviour
     private Rigidbody2D rb;
     private bool nochao = false;
     private bool viracara = true; 
-    public GameObject pl;
-    public GameObject bg;
     public Animator animator;
+    private bool isDashing = false;
+    public float dashSpeed = 100f;
+    public float dashDuration = 0.5f;
 
     void Start(){
         rb = GetComponent<Rigidbody2D>();
-        pl.SetActive(true);
-        bg.SetActive(true);
     }
 
     void Update(){
         
         float moveX = Input.GetAxis("Horizontal");
 
-        // Adiciona a lógica para virar o personagem
+        
         if (moveX > 0 && !viracara)
             Flip();
         else if (moveX < 0 && viracara)
@@ -42,20 +41,20 @@ public class player_Movement : MonoBehaviour
             rb.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
             animator.SetBool("pular", true);
         }         
-        if (Input.GetKeyDown(KeyCode.P)){
-            animator.SetTrigger("poder");
-            animator.SetTrigger("tiro");
-        } if (Input.GetKeyUp(KeyCode.P)){
-        animator.SetBool("poder", false);
-        animator.SetBool("tiro", false);
+        if (Input.GetKeyDown(KeyCode.P) && !isDashing){
+            StartCoroutine(Dash());
+            animator.SetBool("dash", true);
+        } else {
+            animator.SetBool("dash", false);
         }
+
     }
 
     
     void OnCollisionEnter2D(Collision2D collision){
         if (collision.gameObject.tag == groundTag){
             nochao = true;
-            animator.SetBool("pular", false);  // Desativa a animação de pulo quando o personagem toca o chão
+            animator.SetBool("pular", false);  
         }
     }
 
@@ -71,5 +70,19 @@ public class player_Movement : MonoBehaviour
         Vector3 theScale = transform.localScale;
         theScale.x *= -1;
         transform.localScale = theScale;
+    }
+
+    IEnumerator Dash(){
+        isDashing = true;
+
+        float originalSpeed = moveSpeed; 
+
+        moveSpeed = dashSpeed; 
+
+        yield return new WaitForSeconds(dashDuration); 
+
+        moveSpeed = originalSpeed; 
+
+        isDashing = false;
     }
 }
