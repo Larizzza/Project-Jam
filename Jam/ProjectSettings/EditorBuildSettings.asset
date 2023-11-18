@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Fase1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/boss.unity
+    guid: 5375c62679b9c884b82b727d6b67c1fe
+  - enabled: 1
+    path: Assets/Scenes/Game Over.unity
+    guid: 7079487744889744988413a12c34b2cd
+  - enabled: 1
+    path: Assets/Scenes/Luninhas_Fase_1.unity
+    guid: aa540e17d2246244dae4c1a86fc37125
   m_configObjects: {}
