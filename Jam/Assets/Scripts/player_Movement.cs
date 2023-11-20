@@ -7,6 +7,8 @@ public class player_Movement : MonoBehaviour
 {
     public float velocidadeMovimento = 5f;
     public float forcaPulo = 5f;
+    [SerializeField] private int quantidadePulos = 3;
+    private int pulosRestantes;
     string tagChao = "chao";
     private Rigidbody2D rb;
     private bool noChao = false;
@@ -24,6 +26,7 @@ public class player_Movement : MonoBehaviour
 
     void Start(){
         rb = GetComponent<Rigidbody2D>();
+        pulosRestantes = quantidadePulos;
     }
 
     void Update(){
@@ -51,7 +54,9 @@ public class player_Movement : MonoBehaviour
         } else {
             animador.SetBool("andar", false);
         }
-        if ((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow)) && noChao){
+        if ((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow)) && (noChao || pulosRestantes > 0)){
+            if (!noChao) pulosRestantes--;
+            rb.velocity = new Vector2(rb.velocity.x, 0f);
             rb.AddForce(new Vector2(0f, forcaPulo), ForceMode2D.Impulse);
             animador.SetBool("pular", true);
         }         
@@ -84,6 +89,7 @@ public class player_Movement : MonoBehaviour
     void OnCollisionEnter2D(Collision2D colisao){
         if (colisao.gameObject.tag == tagChao){
             noChao = true;
+            pulosRestantes = quantidadePulos; // Restaura os pulos quando toca o chão
             animador.SetBool("pular", false);  
         }
     }
