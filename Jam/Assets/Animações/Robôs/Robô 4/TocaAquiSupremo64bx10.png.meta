@@ -1,0 +1,2468 @@
+fileFormatVersion: 2
+guid: 36c3846c6de472a4f8d6291145f249b7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 3309
+        width: 154
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bd97c5b08b2c34cb35463b4ca11239
+      internalID: 535519460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_1
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 3309
+        width: 152
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083fb957e29ebb045952847370b8d169
+      internalID: -1396858656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_2
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 3339
+        width: 154
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1679c6b56492a1e428c43eb1e14599c7
+      internalID: 751732695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_3
+      rect:
+        serializedVersion: 2
+        x: 2329
+        y: 3309
+        width: 152
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be43f6f6fd64ee4d9b11b59af5204a5
+      internalID: 1133684430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 3298
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011f1eb449cd6494dbc13895902c35f3
+      internalID: 1065833404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_5
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 3319
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c84f457d7670f448f9fa95c3c1bd90
+      internalID: -1482904293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_6
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 3319
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca0f10a04626f04f9c5f752169c525b
+      internalID: 976577206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_7
+      rect:
+        serializedVersion: 2
+        x: 2429
+        y: 3298
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087808dd9fde3d94689cf9b6ecf9423a
+      internalID: 2140005257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_8
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 3289
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d447077cd4049a94fa70f04560411eea
+      internalID: 593891257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_9
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 3289
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0376fc773f42fbb4caeeca8f6d168a9f
+      internalID: 1284609113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_10
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 3289
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ab0ee71f9e4b147ac1b999ef307ebd
+      internalID: -1948484740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_11
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 3289
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a61a1c67727fb419d4c74c6f68e86d
+      internalID: 107974789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_12
+      rect:
+        serializedVersion: 2
+        x: 2408
+        y: 3289
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f67a3f02bf645a4c9ef5d465615f785
+      internalID: 1955700988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_13
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 3268
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bbff68f247608b4eaea41d93798d16e
+      internalID: 1116877804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_14
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 2709
+        width: 184
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619f6e2864bfddc41bde9bde2b1b1825
+      internalID: -1626936057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_15
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 2889
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f2e149bc2c743439db97dbb34ae610
+      internalID: 1208631063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_16
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 2689
+        width: 152
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6854a66c6fa47b24d87f2b39203a9384
+      internalID: -160893485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_17
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 2679
+        width: 154
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e76f9d77ed68e4f96fd205faf8e7e6
+      internalID: -1046561871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_18
+      rect:
+        serializedVersion: 2
+        x: 2299
+        y: 2859
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe3f8f419a7c584c96057ecd15c52f9
+      internalID: -1925851413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_19
+      rect:
+        serializedVersion: 2
+        x: 2329
+        y: 2679
+        width: 152
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75caf21a90e11047802e9ff891f6d7b
+      internalID: 851347675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_20
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 2659
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f606e23b5bb6b47429cb7ce04067c1e4
+      internalID: -1708469352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_21
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 2668
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4df798878ce474cbba3b115ea80a3a
+      internalID: 1569548826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_22
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 2679
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444f6f6d96713c44b951899035ed1276
+      internalID: -1923508055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_23
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 2668
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afac4c0f44de2f848979f02fe0908bfb
+      internalID: 1820936096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_24
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 2659
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de08fce836eb3b40a5ef4c1de09019c
+      internalID: 81856326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_25
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 2649
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5268f2b3ce66591409bd423084d6383f
+      internalID: 1646012717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_26
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 2659
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871b439b6bda84b419fd438f04251a15
+      internalID: -1342227365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_27
+      rect:
+        serializedVersion: 2
+        x: 2399
+        y: 2649
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db4d66d2664c324bbd9f3f31e81c45f
+      internalID: -1165161961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_28
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 2629
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1714337623bfa414fba035008333d81f
+      internalID: -311775756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_29
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 2629
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c63e406b7343849b773a55548ec091
+      internalID: -1842547395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_30
+      rect:
+        serializedVersion: 2
+        x: 2369
+        y: 2638
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96011c0544a8e724eaec5c5f2d76eef3
+      internalID: -662136955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_31
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 2629
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9eb75ae5992ef94aaa3299b6ec142ab
+      internalID: -445261522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_32
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 2289
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b7c55345dc5ce4ca3ca1658c14ac00
+      internalID: 1664382413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_33
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 2259
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a5b52217a375e4e8588c77504bd7c5
+      internalID: -1513400225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_34
+      rect:
+        serializedVersion: 2
+        x: 1969
+        y: 2068
+        width: 533
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b30f1f67e365b489cf0db1212958b0
+      internalID: 1392648095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_35
+      rect:
+        serializedVersion: 2
+        x: 2519
+        y: 2248
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33522030f59e0643bc579c34fb58465
+      internalID: 338060769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_36
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 2049
+        width: 283
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d0f7dcbe4381a4ca83e8484923a07a
+      internalID: 451165991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_37
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 2229
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b692b7526914f3341b1bc355774f0141
+      internalID: -2077156749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_38
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 2049
+        width: 194
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9c0c7a26c1676428a09ce5e0755cf9
+      internalID: -1045277241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_39
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 2059
+        width: 503
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e4b4b0ba75c974a85f594ac24730c1
+      internalID: -279578635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_40
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 2199
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d432918032591d47b64f228779a931f
+      internalID: -1200797697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_41
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 2128
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4a72dc12579264aa804ad004d0ab0e
+      internalID: 1396141962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_42
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 2079
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa287ee6314d5e5458d64041bc3ae4bc
+      internalID: -166578861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_43
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 2029
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98bc67d8ac6769a4faed90e58dc75b14
+      internalID: -1320447948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_44
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 2049
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e32b2d8cef85d46b0af6c96717d58f
+      internalID: 1911216993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_45
+      rect:
+        serializedVersion: 2
+        x: 2309
+        y: 2038
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05fb81e73f60754a88428a757d62390
+      internalID: 1125017577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_46
+      rect:
+        serializedVersion: 2
+        x: 2399
+        y: 2038
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec68fac56540ab449ee58c02b5da252
+      internalID: 1045946208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_47
+      rect:
+        serializedVersion: 2
+        x: 2479
+        y: 2049
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6b21da445f6c948a774f029bfe1821
+      internalID: -1220761406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_48
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 2019
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196906f564c79ff42b758b9f2d5dfcda
+      internalID: 1696759131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_49
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 2019
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00e997934b3f584c88ac6c5410713f3
+      internalID: -348735911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_50
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 2029
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7644602e98633c74e98794612f11f821
+      internalID: 1967647990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_51
+      rect:
+        serializedVersion: 2
+        x: 2429
+        y: 2029
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd7b7e19d6190a40a08306d6a6cbaff
+      internalID: 941952505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_52
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 2008
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be63b17784d59cb43b565c29348b9f78
+      internalID: 624543851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_53
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1999
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8459e69e0c30f4ba2014adf9380b29
+      internalID: 1607630523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_54
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 2008
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13cf2eef0e5bcaf47990c2d1b2a9af67
+      internalID: -1039247427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_55
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 2008
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5aa53a88b6ad4f4181c1b4770982ead
+      internalID: 1450742598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_56
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 1999
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46a9d46a1d3ce441b812297dc0756de
+      internalID: -509994839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_57
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1989
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f2b4ab44e6c194a880235e35158692
+      internalID: -23778756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_58
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1599
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3041799d47810024098075afed6faaf6
+      internalID: 1265296165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_59
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1419
+        width: 531
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b8a0b3263c96a4e920cb8e3acd79e2
+      internalID: 1728293269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_60
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1618
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368c797f23323f343860a1d44c94096c
+      internalID: 193763406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_61
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 1618
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bedcf887b0ca4a4b9f7618cbdd65f19
+      internalID: -784168701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_62
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 1422
+        width: 528
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6372e24e664f8c44b90f93cf4a3380f
+      internalID: -853431818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_63
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1378
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec34f3239df52f4994eda1aa7d84f36
+      internalID: 1343069486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_64
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1399
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeca04060abaaf2449552f4cf1ea3380
+      internalID: -1110933655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_65
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1408
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2542f7e59423ab409dd04e84bef1529
+      internalID: -1588342600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_66
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 1389
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89dcd23b6151a54182be9dcabc54777
+      internalID: -369852849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_67
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 1408
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f031258cba66a438b976a4a1ccaa8c
+      internalID: 822187014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_68
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 1408
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c03ae7575283d54db0a02ba63d015ab
+      internalID: 408963757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_69
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 1399
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615cfdcc9c96f0b48a6af21cc7f0c286
+      internalID: -649933797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_70
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 1399
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7a189cd649c4847807176f48180ace
+      internalID: -258519252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_71
+      rect:
+        serializedVersion: 2
+        x: 2419
+        y: 1408
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbfcfe2e3940f04d81651f310e670eb
+      internalID: 2015030249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_72
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1378
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613efd44f3c898f4985c7095e317671d
+      internalID: -1614779798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_73
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 1389
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d10c89184a524f45b9adc32b912d1ba
+      internalID: 1081715665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_74
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1378
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9208adec3956046ae393f80738a4c2
+      internalID: 335738383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_75
+      rect:
+        serializedVersion: 2
+        x: 2399
+        y: 1389
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67ad336e10e47249a158779f8400ed6
+      internalID: 1171543807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_76
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1369
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b57fb7c214b394295f6969ce25e324
+      internalID: -555417173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_77
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1369
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed28c8c7eb0e6b445ac96cf523cb6496
+      internalID: -1029021525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_78
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 1369
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b4f39570d74c946af23677270287b7
+      internalID: 1232143962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_79
+      rect:
+        serializedVersion: 2
+        x: 2449
+        y: 1369
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d68c716be8f58459a6a6b4cc7d061c
+      internalID: -2038451219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_80
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 778
+        width: 503
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4560d768a8b818f47b697a56110dacca
+      internalID: 1686864732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_81
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 789
+        width: 533
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0821e2fdaba2c54e830487f59c632a5
+      internalID: -1522960228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_82
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 778
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5637bfb8d0a772f46b3fa70983d7366c
+      internalID: -1309845830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_83
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 769
+        width: 283
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2422d678167cd34f8793aae12b8f200
+      internalID: -1546040367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_84
+      rect:
+        serializedVersion: 2
+        x: 2299
+        y: 769
+        width: 192
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918e71efcf2d7fc48849f9cbb1d45408
+      internalID: -1205349742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_85
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 739
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c8b14ba33a78246be40fcafcdf180d
+      internalID: 656571133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_86
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 759
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1a3ce4440b08548a2d3eb843c1768f
+      internalID: 79219873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_87
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 748
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ecb60b1bb64ba44a992c2132c3c8cc9
+      internalID: -541770709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_88
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 739
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e581c572d329f840830065a675a7403
+      internalID: 95541867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_89
+      rect:
+        serializedVersion: 2
+        x: 2419
+        y: 759
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44dc30695d6c61478c3cdc827334941
+      internalID: -126762185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_90
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 729
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38314c23511ef214e9015e67fa23597f
+      internalID: -1916247637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_91
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 729
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce6310863b9a524db64c263849d802d
+      internalID: -2081095633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_92
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 718
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31a88ba2013f9b45aef099f6af230b6
+      internalID: -1248093257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_93
+      rect:
+        serializedVersion: 2
+        x: 2389
+        y: 729
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e4b996b19e59249a2f80f3f55e1389
+      internalID: -1413294119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_94
+      rect:
+        serializedVersion: 2
+        x: 2449
+        y: 729
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c9e09f2a986eb4c973c391145fcf5b
+      internalID: -1698242492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_95
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 709
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9269eec99203d7408b32478475a61bf
+      internalID: -1580762860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_96
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 148
+        width: 182
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fded5e53ff434bb4daa610ff979d13e0
+      internalID: 1723628708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_97
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 118
+        width: 154
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9dd0a74fea4044a8989c6a245383b9
+      internalID: 1679718137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_98
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 109
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b118b817fee075b4586c61be34448eb7
+      internalID: 1423461298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_99
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 118
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3410359a2ac3e40ac1c2749837d1f5
+      internalID: -1998323342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_100
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 109
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac70b18cc9594640b84c29718254cce
+      internalID: 915086447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_101
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 99
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b18c9ba58993544e83311a5cd16bc6f
+      internalID: -200694603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_102
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 79
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96066bfed0fd3504dbd53bf4e99875b7
+      internalID: 1692136607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_103
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 69
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212222f88cb133543814b1dbed60739a
+      internalID: 608485819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_104
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1418
+        width: 589
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55973007270e134ab58a3805623b1e7
+      internalID: -362613314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TocaAquiSupremo64bx10_105
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 1410
+        width: 596
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972ce06f89c836745a370debb38564e6
+      internalID: 757717301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      TocaAquiSupremo64bx10_95: -1580762860
+      TocaAquiSupremo64bx10_71: 2015030249
+      TocaAquiSupremo64bx10_51: 941952505
+      TocaAquiSupremo64bx10_54: -1039247427
+      TocaAquiSupremo64bx10_53: 1607630523
+      TocaAquiSupremo64bx10_2: 751732695
+      TocaAquiSupremo64bx10_55: 1450742598
+      TocaAquiSupremo64bx10_39: -279578635
+      TocaAquiSupremo64bx10_70: -258519252
+      TocaAquiSupremo64bx10_101: -200694603
+      TocaAquiSupremo64bx10_34: 1392648095
+      TocaAquiSupremo64bx10_73: 1081715665
+      TocaAquiSupremo64bx10_81: -1522960228
+      TocaAquiSupremo64bx10_23: 1820936096
+      TocaAquiSupremo64bx10_59: 1728293269
+      TocaAquiSupremo64bx10_89: -126762185
+      TocaAquiSupremo64bx10_35: 338060769
+      TocaAquiSupremo64bx10_20: -1708469352
+      TocaAquiSupremo64bx10_75: 1171543807
+      TocaAquiSupremo64bx10_103: 608485819
+      TocaAquiSupremo64bx10_21: 1569548826
+      TocaAquiSupremo64bx10_27: -1165161961
+      TocaAquiSupremo64bx10_17: -1046561871
+      TocaAquiSupremo64bx10_18: -1925851413
+      TocaAquiSupremo64bx10_64: -1110933655
+      TocaAquiSupremo64bx10_88: 95541867
+      TocaAquiSupremo64bx10_10: -1948484740
+      TocaAquiSupremo64bx10_82: -1309845830
+      TocaAquiSupremo64bx10_44: 1911216993
+      TocaAquiSupremo64bx10_14: -1626936057
+      TocaAquiSupremo64bx10_76: -555417173
+      TocaAquiSupremo64bx10_3: 1133684430
+      TocaAquiSupremo64bx10_12: 1955700988
+      TocaAquiSupremo64bx10_8: 593891257
+      TocaAquiSupremo64bx10_28: -311775756
+      TocaAquiSupremo64bx10_92: -1248093257
+      TocaAquiSupremo64bx10_19: 851347675
+      TocaAquiSupremo64bx10_87: -541770709
+      TocaAquiSupremo64bx10_43: -1320447948
+      TocaAquiSupremo64bx10_93: -1413294119
+      TocaAquiSupremo64bx10_78: 1232143962
+      TocaAquiSupremo64bx10_48: 1696759131
+      TocaAquiSupremo64bx10_36: 451165991
+      TocaAquiSupremo64bx10_25: 1646012717
+      TocaAquiSupremo64bx10_96: 1723628708
+      TocaAquiSupremo64bx10_49: -348735911
+      TocaAquiSupremo64bx10_65: -1588342600
+      TocaAquiSupremo64bx10_100: 915086447
+      TocaAquiSupremo64bx10_9: 1284609113
+      TocaAquiSupremo64bx10_38: -1045277241
+      TocaAquiSupremo64bx10_68: 408963757
+      TocaAquiSupremo64bx10_86: 79219873
+      TocaAquiSupremo64bx10_58: 1265296165
+      TocaAquiSupremo64bx10_15: 1208631063
+      TocaAquiSupremo64bx10_33: -1513400225
+      TocaAquiSupremo64bx10_77: -1029021525
+      TocaAquiSupremo64bx10_91: -2081095633
+      TocaAquiSupremo64bx10_11: 107974789
+      TocaAquiSupremo64bx10_1: -1396858656
+      TocaAquiSupremo64bx10_85: 656571133
+      TocaAquiSupremo64bx10_24: 81856326
+      TocaAquiSupremo64bx10_13: 1116877804
+      TocaAquiSupremo64bx10_61: -784168701
+      TocaAquiSupremo64bx10_72: -1614779798
+      TocaAquiSupremo64bx10_94: -1698242492
+      TocaAquiSupremo64bx10_74: 335738383
+      TocaAquiSupremo64bx10_0: 535519460
+      TocaAquiSupremo64bx10_62: -853431818
+      TocaAquiSupremo64bx10_63: 1343069486
+      TocaAquiSupremo64bx10_16: -160893485
+      TocaAquiSupremo64bx10_4: 1065833404
+      TocaAquiSupremo64bx10_32: 1664382413
+      TocaAquiSupremo64bx10_97: 1679718137
+      TocaAquiSupremo64bx10_46: 1045946208
+      TocaAquiSupremo64bx10_105: 757717301
+      TocaAquiSupremo64bx10_6: 976577206
+      TocaAquiSupremo64bx10_99: -1998323342
+      TocaAquiSupremo64bx10_41: 1396141962
+      TocaAquiSupremo64bx10_26: -1342227365
+      TocaAquiSupremo64bx10_57: -23778756
+      TocaAquiSupremo64bx10_67: 822187014
+      TocaAquiSupremo64bx10_31: -445261522
+      TocaAquiSupremo64bx10_60: 193763406
+      TocaAquiSupremo64bx10_7: 2140005257
+      TocaAquiSupremo64bx10_98: 1423461298
+      TocaAquiSupremo64bx10_66: -369852849
+      TocaAquiSupremo64bx10_37: -2077156749
+      TocaAquiSupremo64bx10_80: 1686864732
+      TocaAquiSupremo64bx10_45: 1125017577
+      TocaAquiSupremo64bx10_5: -1482904293
+      TocaAquiSupremo64bx10_29: -1842547395
+      TocaAquiSupremo64bx10_56: -509994839
+      TocaAquiSupremo64bx10_22: -1923508055
+      TocaAquiSupremo64bx10_102: 1692136607
+      TocaAquiSupremo64bx10_47: -1220761406
+      TocaAquiSupremo64bx10_90: -1916247637
+      TocaAquiSupremo64bx10_42: -166578861
+      TocaAquiSupremo64bx10_50: 1967647990
+      TocaAquiSupremo64bx10_104: -362613314
+      TocaAquiSupremo64bx10_52: 624543851
+      TocaAquiSupremo64bx10_40: -1200797697
+      TocaAquiSupremo64bx10_69: -649933797
+      TocaAquiSupremo64bx10_83: -1546040367
+      TocaAquiSupremo64bx10_79: -2038451219
+      TocaAquiSupremo64bx10_30: -662136955
+      TocaAquiSupremo64bx10_84: -1205349742
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
