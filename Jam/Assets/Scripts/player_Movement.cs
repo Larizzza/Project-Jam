@@ -7,7 +7,7 @@ public class player_Movement : MonoBehaviour
 {
     public float velocidadeMovimento = 5f;
     public float forcaPulo = 5f;
-    [SerializeField] private int quantidadePulos = 3;
+    [SerializeField] private int quantidadePulos = 2;
     private int pulosRestantes;
     string tagChao = "chao";
     private Rigidbody2D rb;
