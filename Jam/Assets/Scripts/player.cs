@@ -5,7 +5,7 @@ using UnityEngine;
 public class player : MonoBehaviour
 {
   
-   private Rigidbody2D rb;
+     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
     public float movePlayer = 10f;
     public float forcaPulo;
@@ -13,13 +13,13 @@ public class player : MonoBehaviour
     public camera_fase1 cameraFollow;
     public Animator anima;
 
+    private bool movimentoIniciado = false; 
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anima = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-
 
         cameraFollow = Camera.main.GetComponent<camera_fase1>();
         if (cameraFollow != null)
@@ -28,29 +28,38 @@ public class player : MonoBehaviour
         }
     }
 
-
     void Update()
     {
-        transform.Translate(Vector2.right * (Time.deltaTime * movePlayer));
-
-
-        if (Input.GetKeyDown(KeyCode.J))
+        if (Input.GetKeyDown(KeyCode.Space) && !movimentoIniciado)
         {
-            rb.AddForce(Vector3.up * forcaPulo, ForceMode2D.Impulse);
+            
+            movimentoIniciado = true;
+
+            
+            gravityScale *= -1.0f;
+            rb.gravityScale = gravityScale;
+
+            Vector3 scale = transform.localScale;
+            scale.y *= -1;
+            transform.localScale = scale;
         }
 
+        if (movimentoIniciado)
+        {
+          
+            transform.Translate(Vector2.right * (Time.deltaTime * movePlayer));
+        }
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
             gravityScale *= -1.0f;
             rb.gravityScale = gravityScale;
 
-
-           
             Vector3 scale = transform.localScale;
             scale.y *= -1;
             transform.localScale = scale;
         }
-    }
+
+    } 
  
 }
