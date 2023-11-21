@@ -38,8 +38,8 @@ public class player_Movement : MonoBehaviour
         else if (movimentoX < 0 && viradoParaDireita)
             Virar();
 
-        if (estaDandoDash) {
-            if (Mathf.Abs(transform.position.x - posicaoInicialDash.x) < 2) {
+        if (estaDandoDash){
+            if (Mathf.Abs(transform.position.x - posicaoInicialDash.x) < 2){
                 rb.velocity = new Vector2(direcaoDash * velocidadeDash, rb.velocity.y);
             } else {
                 estaDandoDash = false;
@@ -89,7 +89,7 @@ public class player_Movement : MonoBehaviour
     void OnCollisionEnter2D(Collision2D colisao){
         if (colisao.gameObject.tag == tagChao){
             noChao = true;
-            pulosRestantes = quantidadePulos; // Restaura os pulos quando toca o chão
+            pulosRestantes = quantidadePulos; 
             animador.SetBool("pular", false);  
         }
     }

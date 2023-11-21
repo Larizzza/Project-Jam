@@ -10,20 +10,23 @@ public class plataforma_boss : MonoBehaviour
     public Vector3 posicaoAlvo2; 
     public float velocidade = 1f;
     private bool acionado = false;
+    public GameObject boss;
+    private int initialBossHealth;
 
-    void OnTriggerEnter2D(Collider2D other){
-        if (other.gameObject.CompareTag("Player")){
-            acionado = true;
-            Debug.Log("trigou");
-        }
+    void Start(){
+        initialBossHealth = boss.GetComponent<boss_base>().vida;
     }
 
     void Update(){
+        if (boss.GetComponent<boss_base>().vida <= initialBossHealth / 2){
+            acionado = true;
+        }
+
         if (acionado){
             plataforma1.transform.position = Vector3.MoveTowards(plataforma1.transform.position, posicaoAlvo1, velocidade * Time.deltaTime);
             plataforma2.transform.position = Vector3.MoveTowards(plataforma2.transform.position, posicaoAlvo2, velocidade * Time.deltaTime);
                 if (plataforma1.transform.position == posicaoAlvo1 && plataforma2.transform.position == posicaoAlvo2){
-                    Destroy(gameObject);
+                    //mensagem avisando que o chão irá desaparecer e o jogador só poderá usar as plataformas
             }
         }
     }

@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class boss_ataque : MonoBehaviour
 {
-    public GameObject prefabPedra;
-    public Transform pontoSpawn;
+    public GameObject[] prefabPedras; // Array de prefabs de pedra
+    public Transform[] pontosSpawn; // Array de pontos de spawn
     private float temporizadorDano = 0f;
     private float intervaloDano = 8f;
-    [SerializeField] private int quantidadePedras = 5; 
+    [SerializeField] private int quantidadePedras = 3; // Quantidade de pedras por ponto de spawn
 
     void Update(){
         temporizadorDano += Time.deltaTime;
@@ -29,11 +29,13 @@ public class boss_ataque : MonoBehaviour
     }
 
     void SoltarPedras(){
-        for (int i = 0; i < quantidadePedras; i++){
-            float deslocamentoX = Random.Range(-10f, 10f);
-            float deslocamentoY = Random.Range(-10f, 10f);
-            Vector3 posicaoSpawn = pontoSpawn.position + new Vector3(deslocamentoX, deslocamentoY, 0);
-            Instantiate(prefabPedra, posicaoSpawn, pontoSpawn.rotation);
+        for (int i = 0; i < pontosSpawn.Length; i++){
+            for (int j = 0; j < quantidadePedras; j++){
+                float deslocamentoX = Random.Range(-10f, 10f);
+                float deslocamentoY = Random.Range(-10f, 10f);
+                Vector3 posicaoSpawn = pontosSpawn[i].position + new Vector3(deslocamentoX, deslocamentoY, 0);
+                Instantiate(prefabPedras[i], posicaoSpawn, pontosSpawn[i].rotation);
+            }
         }
     }
 }
