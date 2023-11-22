@@ -1,21 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class camera : MonoBehaviour
 {
-   public GameObject player;
-   private Vector3 deslocamento;
+    public Transform playerTransform;
+    public float smoothSpeed = 0.125f;
+    public Vector3 offset;
 
-    void Start()
+    void FixedUpdate()
     {
-        deslocamento = transform.position - player.transform.position;
-    }
-
-    
-    void LateUpdate()
-    {
-        transform.position = player.transform.position + deslocamento;
+        Vector3 desiredPosition = playerTransform.position + offset;
+        Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
+        transform.position = smoothedPosition;
     }
 }

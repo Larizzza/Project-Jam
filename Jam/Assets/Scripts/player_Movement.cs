@@ -10,12 +10,13 @@ public class player_Movement : MonoBehaviour
     [SerializeField] private int quantidadePulos = 2;
     private int pulosRestantes;
     string tagChao = "chao";
+    string tagPlataforma = "plataforma";
     private Rigidbody2D rb;
     private bool noChao = false;
     private bool viradoParaDireita = true; 
     public Animator animador;
-    public int danoDash = 50;
-    private bool estaDandoDash = false;
+    public static int danoDash = 100;
+    public static bool estaDandoDash = false;
     public int vida = 250;
     public GameObject painelGameOver;
     public int danoPedra = 25;
@@ -82,12 +83,12 @@ public class player_Movement : MonoBehaviour
     if (movimentoX != 0){
         animador.SetBool("andar", true);
     } else {
-        animador.SetBool("andar", false);
+        animador.SetBool("run", false);
     }
     }
 
     void OnCollisionEnter2D(Collision2D colisao){
-        if (colisao.gameObject.tag == tagChao){
+        if (colisao.gameObject.tag == tagChao || colisao.gameObject.tag == tagPlataforma){
             noChao = true;
             pulosRestantes = quantidadePulos; 
             animador.SetBool("pular", false);  
@@ -95,17 +96,11 @@ public class player_Movement : MonoBehaviour
     }
     
     void OnCollisionExit2D(Collision2D colisao){
-        if (colisao.gameObject.tag == tagChao){
+        if (colisao.gameObject.tag == tagChao || colisao.gameObject.tag == tagPlataforma){
             noChao = false;
         }
     }
-    void OnCollisionEnter(Collision colisao){
-        if (estaDandoDash && colisao.gameObject.CompareTag("Boss")){
-            boss_base boss = colisao.gameObject.GetComponent<boss_base>();
-            boss.ReceberDano(danoDash);
-            estaDandoDash = false;
-        }
-    }
+    
 
     void OnTriggerEnter2D(Collider2D colisao){
         if (colisao.gameObject.CompareTag("Pedra")){

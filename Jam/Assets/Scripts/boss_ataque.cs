@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class boss_ataque : MonoBehaviour
 {
-    public GameObject[] prefabPedras; // Array de prefabs de pedra
-    public Transform[] pontosSpawn; // Array de pontos de spawn
+    public GameObject[] prefabPedras; 
+    public Transform[] pontosSpawn;
     private float temporizadorDano = 0f;
     private float intervaloDano = 8f;
-    [SerializeField] private int quantidadePedras = 3; // Quantidade de pedras por ponto de spawn
+    [SerializeField] private int quantidadePedras = 3;
 
     void Update(){
         temporizadorDano += Time.deltaTime;
