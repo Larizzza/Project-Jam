@@ -8,7 +8,7 @@ public class boss_base : MonoBehaviour
     public int vida = 1000;
     public bool estaImune = false;
     private float tempoImune = 0f;
-    private float intervalo = 10f;
+    private float intervalo = 3f;
     public Text textoImune;
 
     void Start(){

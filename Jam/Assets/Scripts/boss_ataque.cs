@@ -8,7 +8,7 @@ public class boss_ataque : MonoBehaviour
     public Transform[] pontosSpawn;
     private float temporizadorDano = 0f;
     private float intervaloDano = 8f;
-    [SerializeField] private int quantidadePedras = 3;
+    [SerializeField] private int quantidadePedras = 2;
 
     void Update(){
         temporizadorDano += Time.deltaTime;
@@ -19,7 +19,7 @@ public class boss_ataque : MonoBehaviour
     }
 
     void Murro(){
-        GetComponent<Rigidbody2D>().AddForce(Vector2.up * 15, ForceMode2D.Impulse);
+        GetComponent<Rigidbody2D>().AddForce(Vector2.up * 5, ForceMode2D.Impulse);
     }
 
     void OnCollisionEnter2D(Collision2D colisao){
@@ -31,8 +31,8 @@ public class boss_ataque : MonoBehaviour
     void SoltarPedras(){
         for (int i = 0; i < pontosSpawn.Length; i++){
             for (int j = 0; j < quantidadePedras; j++){
-                float deslocamentoX = Random.Range(-10f, 10f);
-                float deslocamentoY = Random.Range(-10f, 10f);
+                float deslocamentoX = Random.Range(-3f, 3f);
+                float deslocamentoY = Random.Range(-3f, 3f);
                 Vector3 posicaoSpawn = pontosSpawn[i].position + new Vector3(deslocamentoX, deslocamentoY, 0);
                 Instantiate(prefabPedras[i], posicaoSpawn, pontosSpawn[i].rotation);
             }

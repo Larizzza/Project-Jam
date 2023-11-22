@@ -11,14 +11,14 @@ public class plataforma_boss : MonoBehaviour
     public float velocidade = 1f;
     private bool acionado = false;
     public GameObject boss;
-    private int initialBossHealth;
+    private int saudeInicial;
 
     void Start(){
-        initialBossHealth = boss.GetComponent<boss_base>().vida;
+        saudeInicial = boss.GetComponent<boss_base>().vida;
     }
 
     void Update(){
-        if (boss.GetComponent<boss_base>().vida <= initialBossHealth / 2){
+        if (boss.GetComponent<boss_base>().vida <= saudeInicial / 2){
             acionado = true;
         }
 

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class player_Movement : MonoBehaviour
 {
-    public float velocidadeMovimento = 5f;
+    [SerializeField] private float velocidadeMovimento = 5f;
     public float forcaPulo = 5f;
     [SerializeField] private int quantidadePulos = 2;
     private int pulosRestantes;
@@ -17,17 +17,23 @@ public class player_Movement : MonoBehaviour
     public Animator animador;
     public static int danoDash = 100;
     public static bool estaDandoDash = false;
-    public int vida = 250;
+    public int vida = 100;
     public GameObject painelGameOver;
-    public int danoPedra = 25;
+    public int danoPedra = 20;
     public float duracaoDash = 3f; 
     [SerializeField] private float velocidadeDash = 50f;
     private float direcaoDash;
     [SerializeField] private Vector3 posicaoInicialDash;
+    public camera_boss cameraFollow;
 
     void Start(){
         rb = GetComponent<Rigidbody2D>();
         pulosRestantes = quantidadePulos;
+
+        cameraFollow = Camera.main.GetComponent<camera_boss>();
+        if (cameraFollow != null){
+            cameraFollow.SetTarget(transform);
+        }
     }
 
     void Update(){
@@ -83,7 +89,7 @@ public class player_Movement : MonoBehaviour
     if (movimentoX != 0){
         animador.SetBool("andar", true);
     } else {
-        animador.SetBool("run", false);
+        animador.SetBool("andar", false);
     }
     }
 
@@ -108,6 +114,14 @@ public class player_Movement : MonoBehaviour
         } else if (estaDandoDash && colisao.gameObject.CompareTag("Boss")){
             boss_base boss = colisao.gameObject.GetComponent<boss_base>();
             boss.ReceberDano(100);
+            estaDandoDash = false;
+        }
+    }
+
+     void OnTriggerStay2D(Collider2D other){
+        if (estaDandoDash && other.gameObject.CompareTag("Boss")){
+            boss_base boss = other.gameObject.GetComponent<boss_base>();
+            boss.ReceberDano(danoDash);
             estaDandoDash = false;
         }
     }
