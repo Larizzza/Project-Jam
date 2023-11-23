@@ -8,7 +8,8 @@ public class boss_base : MonoBehaviour
     public int vida = 1000;
     public bool estaImune = false;
     private float tempoImune = 0f;
-    private float intervalo = 3f;
+    public float intervalo = 5f;
+    public float duracaoImune = 2.5f;
     public Text textoImune;
 
     void Start(){
@@ -19,6 +20,9 @@ public class boss_base : MonoBehaviour
         if (tempoImune >= intervalo){
             estaImune = !estaImune;
             tempoImune = 0f;
+            if (estaImune){
+                StartCoroutine(DesativarImunidade());
+            }
         }
 
         if (estaImune){
@@ -26,6 +30,11 @@ public class boss_base : MonoBehaviour
         } else {
             textoImune.text = "";
         }
+    }
+
+    IEnumerator DesativarImunidade(){
+        yield return new WaitForSeconds(duracaoImune);
+        estaImune = false;
     }
 
     public void ReceberDano(int dano){
