@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class plataforma_boss : MonoBehaviour
 {
@@ -16,39 +15,23 @@ public class plataforma_boss : MonoBehaviour
     public GameObject boss;
     private int saudeInicial;
     private float tempoDesdeUltimoBalanço = 0f;  
-    public Text avisoTexto;
-    private bool mensagemMostrada = false; 
+    private Animator bossAnimator;
 
     void Start(){
         saudeInicial = boss.GetComponent<boss_base>().vida;
+        bossAnimator = boss.GetComponent<Animator>();
     }
 
     void Update(){
         if (boss.GetComponent<boss_base>().vida <= saudeInicial / 2){
             acionado = true;
+            bossAnimator.SetBool("50cent", true);
         }
 
         if (acionado){
             plataforma1.transform.position = Vector3.MoveTowards(plataforma1.transform.position, posicaoAlvo1, velocidade * Time.deltaTime);
             plataforma2.transform.position = Vector3.MoveTowards(plataforma2.transform.position, posicaoAlvo2, velocidade * Time.deltaTime);
-            if (plataforma1.transform.position == posicaoAlvo1 && plataforma2.transform.position == posicaoAlvo2 && !mensagemMostrada){
-                StartCoroutine(MostrarAviso());
-                mensagemMostrada = true; // a mensagem já foi mostrada
-            }
-
-            tempoDesdeUltimoBalanço += Time.deltaTime;
-            // Comentei a linha abaixo para remover o efeito de balanço
-            // if (tempoDesdeUltimoBalanço >= tempoBalanço){
-            //     StartCoroutine(BalançarPlataformas());
-            //     tempoDesdeUltimoBalanço = 0f;
-            // }
         }
-    }
-
-    IEnumerator MostrarAviso(){
-        avisoTexto.text = "A vida do boss atingiu 30%, o chão irá descer lentamente. Por favor utilize as plataformas.";
-        yield return new WaitForSeconds(10);
-        avisoTexto.text = "";
     }
 
     // A função BalançarPlataformas() ainda está aqui, mas não está sendo chamada
