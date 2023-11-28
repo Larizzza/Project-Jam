@@ -10,10 +10,13 @@ public class chaozin : MonoBehaviour
     public float speed = 0.01f;
     public Text avisoTexto; 
     private bool mensagemMostrada = false; 
+    public GameObject controlaEfeitos;
+    public float posicaoLimite;
 
     void Update(){
         if (boss.vida <= 300){
             StartCoroutine(LowerFloor());
+            controlaEfeitos.GetComponent<Efeitos>().PlayRandomDashSound();
         }
     }
 
@@ -30,6 +33,10 @@ public class chaozin : MonoBehaviour
         while (true){
             foreach (GameObject ch in chao){
                 ch.transform.position -= new Vector3(0, speed, 0) * Time.deltaTime;
+                if (ch.transform.position.y <= posicaoLimite) {
+                    Destroy(ch);
+                    controlaEfeitos.GetComponent<Efeitos>().StopSound();
+                }
             }
             yield return null;
         }

@@ -25,6 +25,7 @@ public class player_Movement : MonoBehaviour
     private float direcaoDash;
     [SerializeField] private Vector3 posicaoInicialDash;
     public camera_boss cameraFollow;
+    public GameObject controlaEfeitos; 
 
     void Start(){
         rb = GetComponent<Rigidbody2D>();
@@ -71,6 +72,7 @@ public class player_Movement : MonoBehaviour
             direcaoDash = Mathf.Sign(movimentoX);
             posicaoInicialDash = transform.position;
             StartCoroutine(Dash());
+            controlaEfeitos.GetComponent<Efeitos>().PlayRandomDashSound();
         }
 
         if (vida <= 0){
