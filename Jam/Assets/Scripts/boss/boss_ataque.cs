@@ -6,6 +6,7 @@ public class boss_ataque : MonoBehaviour
 {
     public GameObject[] prefabPedras; 
     public Transform[] pontosSpawn;
+    public Transform camerinha; 
     private float temporizadorDano = 0f;
     private float intervaloDano = 8f;
     [SerializeField] private int quantidadePedras = 2;
@@ -20,7 +21,6 @@ public class boss_ataque : MonoBehaviour
         if (temporizadorDano >= intervaloDano){
             Murro();
             temporizadorDano = 0f;
-            animator.SetTrigger("attack");
         }
     }
 
@@ -30,7 +30,7 @@ public class boss_ataque : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D colisao){
         if (colisao.gameObject.CompareTag("Teto")){
-            SoltarPedras();
+            SoltarPedras();             
         }
     }
 
@@ -41,7 +41,26 @@ public class boss_ataque : MonoBehaviour
                 float deslocamentoY = Random.Range(-3f, 3f);
                 Vector3 posicaoSpawn = pontosSpawn[i].position + new Vector3(deslocamentoX, deslocamentoY, 0);
                 Instantiate(prefabPedras[i], posicaoSpawn, pontosSpawn[i].rotation);
+                StartCoroutine(ShakeCamera(0.15f, 0.4f));
             }
         }
+    }
+
+    IEnumerator ShakeCamera(float duration, float magnitude) {
+        Vector3 originalPosition = camerinha.localPosition;
+        float elapsed = 0.0f;
+
+        while (elapsed < duration) {
+            float x = Random.Range(-2f, 0.5f) * magnitude;
+            float y = Random.Range(-1f, 0.5f) * magnitude;
+
+            camerinha.localPosition = new Vector3(x, y, originalPosition.z);
+
+            elapsed += Time.deltaTime;
+
+            yield return null;
+        }
+
+        camerinha.localPosition = originalPosition;
     }
 }

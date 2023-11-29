@@ -12,6 +12,7 @@ public class chaozin : MonoBehaviour
     private bool mensagemMostrada = false; 
     public GameObject controlaEfeitos;
     public float posicaoLimite;
+    private float targetY; // Posição Y alvo para interpolação
 
     void Update(){
         if (boss.vida <= 300){
@@ -32,7 +33,10 @@ public class chaozin : MonoBehaviour
 
         while (true){
             foreach (GameObject ch in chao){
-                ch.transform.position -= new Vector3(0, speed, 0) * Time.deltaTime;
+                // Define a posição Y alvo para a interpolação
+                targetY = ch.transform.position.y - speed;
+                // Interpola a posição Y do chão para a posição Y alvo
+                ch.transform.position = new Vector3(ch.transform.position.x, Mathf.Lerp(ch.transform.position.y, targetY, Time.deltaTime), ch.transform.position.z);
                 if (ch.transform.position.y <= posicaoLimite) {
                     Destroy(ch);
                     controlaEfeitos.GetComponent<Efeitos>().StopSound();

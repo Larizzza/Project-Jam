@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class player_Movement : MonoBehaviour
 {
@@ -18,7 +20,6 @@ public class player_Movement : MonoBehaviour
     public static int danoDash = 100;
     public static bool estaDandoDash = false;
     public int vida = 100;
-    public GameObject painelGameOver;
     public int danoPedra = 20;
     public float duracaoDash = 3f; 
     [SerializeField] private float velocidadeDash = 50f;
@@ -77,7 +78,7 @@ public class player_Movement : MonoBehaviour
 
         if (vida <= 0){
             Destroy(gameObject);
-            painelGameOver.SetActive(true);
+            SceneManager.LoadScene("Game Over");
         }
     }
 
