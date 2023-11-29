@@ -27,6 +27,7 @@ public class player_Movement : MonoBehaviour
     [SerializeField] private Vector3 posicaoInicialDash;
     public camera_boss cameraFollow;
     public GameObject controlaEfeitos; 
+    public GameObject derrota;
 
     void Start(){
         rb = GetComponent<Rigidbody2D>();
@@ -78,9 +79,16 @@ public class player_Movement : MonoBehaviour
 
         if (vida <= 0){
             Destroy(gameObject);
-            SceneManager.LoadScene("Game Over");
+            derrota.SetActive(true);
+            StartCoroutine(DesativarImagemERecarregarCena());
         }
     }
+
+    IEnumerator DesativarImagemERecarregarCena(){
+    yield return new WaitForSeconds(2);
+    derrota.SetActive(false);
+    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+}
 
    IEnumerator Dash(){
     estaDandoDash = true;

@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 0b39dc39ddeba6249acc14546a692022
+  - enabled: 1
     path: Assets/Scenes/Fase1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -15,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Game Over.unity
     guid: 7079487744889744988413a12c34b2cd
   - enabled: 1
-    path: Assets/Scenes/Luninhas_Fase_1.unity
-    guid: aa540e17d2246244dae4c1a86fc37125
+    path: Assets/Scenes/win.unity
+    guid: 097bad16605c4534883d27558275fbad
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}

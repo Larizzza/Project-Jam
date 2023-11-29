@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class boss_base : MonoBehaviour
 {
@@ -42,6 +43,7 @@ public class boss_base : MonoBehaviour
             vida -= dano;
             if (vida <= 0){
                 Morte();
+                SceneManager.LoadScene("win");
             }
         } else {
             Debug.Log("Imune!");
