@@ -9,12 +9,18 @@ public class boss_ataque : MonoBehaviour
     private float temporizadorDano = 0f;
     private float intervaloDano = 8f;
     [SerializeField] private int quantidadePedras = 2;
+    private Animator animator;
+
+    void Start(){
+        animator = GetComponent<Animator>();
+    }
 
     void Update(){
         temporizadorDano += Time.deltaTime;
         if (temporizadorDano >= intervaloDano){
             Murro();
             temporizadorDano = 0f;
+            animator.SetTrigger("attack");
         }
     }
 
