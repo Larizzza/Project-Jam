@@ -17,7 +17,7 @@ public class player_Movement : MonoBehaviour
     private bool noChao = false;
     private bool viradoParaDireita = true; 
     public Animator animador;
-    public static int danoDash = 100;
+    public static int danoDash = 20;
     public static bool estaDandoDash = false;
     public int vida = 100;
     public int danoPedra = 20;

@@ -9,7 +9,9 @@ public class sons : MonoBehaviour
     public AudioClip creditosSound;
 
     void Start(){
+        PlayMusic(bossFaseSound);
         PlayMusic(menuSound);
+        PlayMusic(fase1Sound);
     }
 
     public void PlayMusic(AudioClip clip){
