@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.iOS;
 
 public class plataforma_boss : MonoBehaviour
 {
@@ -16,6 +17,8 @@ public class plataforma_boss : MonoBehaviour
     private int saudeInicial;
     private float tempoDesdeUltimoBalanço = 0f;  
     private Animator bossAnimator;
+    public GameObject aviso;
+    private bool avisoAtivado = false;
 
     void Start(){
         saudeInicial = boss.GetComponent<boss_base>().vida;
@@ -23,15 +26,23 @@ public class plataforma_boss : MonoBehaviour
     }
 
     void Update(){
-        if (boss.GetComponent<boss_base>().vida <= saudeInicial / 2){
+        if (boss.GetComponent<boss_base>().vida <= saudeInicial / 2 && !avisoAtivado){
+            aviso.SetActive(true);
             acionado = true;
             bossAnimator.SetBool("50cent", true);
+            StartCoroutine(DesativarAviso());
+            avisoAtivado = true;
         }
 
         if (acionado){
             plataforma1.transform.position = Vector3.MoveTowards(plataforma1.transform.position, posicaoAlvo1, velocidade * Time.deltaTime);
             plataforma2.transform.position = Vector3.MoveTowards(plataforma2.transform.position, posicaoAlvo2, velocidade * Time.deltaTime);
         }
+    }
+
+    IEnumerator DesativarAviso(){
+        yield return new WaitForSeconds(4);
+        aviso.SetActive(false);
     }
 
     // A função BalançarPlataformas() ainda está aqui, mas não está sendo chamada

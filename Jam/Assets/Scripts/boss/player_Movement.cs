@@ -70,7 +70,7 @@ public class player_Movement : MonoBehaviour
             rb.AddForce(new Vector2(0f, forcaPulo), ForceMode2D.Impulse);
             animador.SetBool("pular", true);
         }         
-        if (Input.GetKeyDown(KeyCode.P) && !estaDandoDash){
+        if (Input.GetKeyDown(KeyCode.LeftControl) && !estaDandoDash){
             direcaoDash = Mathf.Sign(movimentoX);
             posicaoInicialDash = transform.position;
             StartCoroutine(Dash());
@@ -78,16 +78,18 @@ public class player_Movement : MonoBehaviour
         }
 
         if (vida <= 0){
-            Destroy(gameObject);
             derrota.SetActive(true);
             StartCoroutine(DesativarImagemERecarregarCena());
-        }
+        } else if (derrota.activeSelf){
+        StartCoroutine(DesativarImagemERecarregarCena());
+    }
+
     }
 
     IEnumerator DesativarImagemERecarregarCena(){
     yield return new WaitForSeconds(2);
     derrota.SetActive(false);
-    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    SceneManager.LoadScene("boss");
 }
 
    IEnumerator Dash(){

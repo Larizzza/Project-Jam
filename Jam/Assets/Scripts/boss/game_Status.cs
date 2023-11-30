@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 
 public class game_Status : MonoBehaviour
 {
@@ -17,4 +18,5 @@ public class game_Status : MonoBehaviour
             }
         }
     }
+
 }

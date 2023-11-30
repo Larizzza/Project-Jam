@@ -8,11 +8,11 @@ public class chaozin : MonoBehaviour
     public boss_base boss;
     private GameObject[] chao;
     public float speed = 0.01f;
-    public Text avisoTexto; 
+    public GameObject avisoTexto; 
     private bool mensagemMostrada = false; 
     public GameObject controlaEfeitos;
     public float posicaoLimite;
-    private float targetY; // Posição Y alvo para interpolação
+    private float targetY;
 
     void Update(){
         if (boss.vida <= 300){
@@ -25,9 +25,9 @@ public class chaozin : MonoBehaviour
         chao = GameObject.FindGameObjectsWithTag("chao");
 
         if (!mensagemMostrada) { 
-            avisoTexto.text = "A vida do boss atingiu 30%, o chão irá descer lentamente. Por favor utilize as plataformas.";
-            yield return new WaitForSeconds(10);
-            avisoTexto.text = "";
+            avisoTexto.SetActive(true);
+            yield return new WaitForSeconds(5);
+            avisoTexto.SetActive(false);
             mensagemMostrada = true; 
         }
 

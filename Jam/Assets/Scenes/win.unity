@@ -238,7 +238,7 @@ GameObject:
   - component: {fileID: 678364840}
   - component: {fileID: 678364839}
   m_Layer: 5
-  m_Name: perdeu
+  m_Name: ganhou
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -261,8 +261,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 24, y: -36.46}
-  m_SizeDelta: {x: 1092.83, y: 760.81}
+  m_AnchoredPosition: {x: 67.81, y: -36.46}
+  m_SizeDelta: {x: 1180.46, y: 760.81}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &678364839
 MonoBehaviour:
@@ -297,7 +297,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Ganhou\n\xD3t\xE1rio!"
+  m_Text: Ganhou!
 --- !u!222 &678364840
 CanvasRenderer:
   m_ObjectHideFlags: 0

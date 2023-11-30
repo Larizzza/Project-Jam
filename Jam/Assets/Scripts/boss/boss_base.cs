@@ -11,7 +11,7 @@ public class boss_base : MonoBehaviour
     private float tempoImune = 0f;
     public float intervalo = 5f;
     public float duracaoImune = 2.5f;
-    public Text textoImune;
+    public GameObject invulneravel;
 
     void Start(){
     }
@@ -27,9 +27,9 @@ public class boss_base : MonoBehaviour
         }
 
         if (estaImune){
-            textoImune.text = "Boss está imune!";
+            invulneravel.SetActive(true);
         } else {
-            textoImune.text = "";
+            invulneravel.SetActive(false);
         }
     }
 
