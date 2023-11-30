@@ -5,13 +5,15 @@ using UnityEngine;
 public class player : MonoBehaviour
 {
   
-     private Rigidbody2D rb;
+    private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
     public float movePlayer = 10f;
     public float forcaPulo;
     public float gravityScale = 1.0f;
     public camera_fase1 cameraFollow;
     public Animator anima;
+    public GameObject controlaEfeitos; 
+
 
     private bool movimentoIniciado = false; 
 
@@ -48,18 +50,34 @@ public class player : MonoBehaviour
         {
           
             transform.Translate(Vector2.right * (Time.deltaTime * movePlayer));
+
         }
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            anima.Play("ray");
             gravityScale *= -1.0f;
             rb.gravityScale = gravityScale;
 
             Vector3 scale = transform.localScale;
             scale.y *= -1;
             transform.localScale = scale;
-        }
 
-    } 
- 
+           // controlaEfeitos.GetComponent<Efeitos>().PlayRandomDashSound();
+
+        }   
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("chao"))
+        {
+            anima.Play("run");
+            
+        }
+    
+    }
+
+
 }
+
