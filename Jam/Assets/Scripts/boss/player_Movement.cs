@@ -36,7 +36,10 @@ public class player_Movement : MonoBehaviour
         if (cameraFollow != null){
             cameraFollow.SetTarget(transform);
         }
+
+        
     }
+
 
     void Update(){
         
