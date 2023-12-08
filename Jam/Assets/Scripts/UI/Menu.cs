@@ -14,6 +14,10 @@ public class Menu : MonoBehaviour
         // Carrega a cena com o nome especificado
         SceneManager.LoadScene(cenaDestino);
     }
+
+    public void fechaessaporra(){
+        Application.Quit();
+    }
       
 }
 
